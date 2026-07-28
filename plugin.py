@@ -42,6 +42,7 @@ class ContextPressureStopModule:
 
 
 class ContextPressurePlugin(Plugin):
+    api_version = 2
     name = "context_pressure"
     version = "1.0.0"
     desc = "上下文压力过高时请求被动循环阶段性收尾"
